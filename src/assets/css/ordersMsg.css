@@ -1,0 +1,311 @@
+/*.orders{margin-top:40px;min-height: 830px;}*/
+.orders-left {
+    width: 370px;
+    min-height: 780px;
+    height: 100%;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 20px
+}
+
+    .orders-left .title {
+        margin-bottom: 29px;
+    }
+
+        .orders-left .title h1 {
+            display: inline-block;
+            color: #333;
+            font-size: 22px;
+        }
+
+        .orders-left .title .line-h {
+            margin-bottom: 7px;
+        }
+
+    .orders-left .orders-left-list {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+        .orders-left .orders-left-list:last-child {
+            border: none;
+        }
+
+        .orders-left .orders-left-list i {
+            margin-right: 14px;
+            color: #999
+        }
+
+        .orders-left .orders-left-list span:nth-child(2) {
+            color: #999;
+        }
+
+        .orders-left .orders-left-list span:nth-child(3) {
+            color: #333;
+            font-size: 14px;
+        }
+
+    .orders-left .orders-left-ticket {
+        width: 100%;
+        height: 90px;
+        background: #fff;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+
+        .orders-left .orders-left-ticket p {
+            font-size: 16px;
+            color: #333;
+            width: 100%;
+            text-align: left;
+        }
+
+        .orders-left .orders-left-ticket .num {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+            .orders-left .orders-left-ticket .num .pirce {
+                font-size: 16px;
+            }
+
+            .orders-left .orders-left-ticket .num i {
+                font-size: 20px;
+                color: #27b8e1;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .orders-left .orders-left-ticket .num .nums {
+                font-size: 17px;
+                color: #333;
+                margin: 0 15px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+.error {
+    font-size: 13px !important;
+    color: red !important;
+    display: inline-block;
+    min-width: 100px;
+    height: 30px;
+}
+
+.orders-right {
+    background: #fff;
+    width: 68%;
+    min-height: 780px;
+    height: 100%;
+}
+
+    .orders-right .img {
+        background-image: url('../images/ticketsPC/biaoti1.png');
+        width: 65%;
+        height: 30px;
+        margin: 50px auto;
+        background-repeat: no-repeat;
+    }
+
+    .orders-right .orders_item {
+        margin: 0 auto 20px;
+        margin: 0 16%;
+    }
+
+        .orders-right .orders_item i {
+            display: inline-block;
+        }
+
+        .orders-right .orders_item span {
+            display: inline-block;
+            width:120px;
+            text-align: left;
+            margin-left: 5px;
+            font-size: 18px;
+            color: #4d4d4d;
+        }
+        .orders-right .orders_item label {
+            display: inline-block;
+            margin-right: 15px;
+            font-size: 18px;
+            color: #4d4d4d;
+        }
+            .orders-right .orders_item label:last-child {
+                margin-right: 0;
+            }
+            .orders-right .orders_item label :last-child {
+                margin-right: 0px;
+            }
+
+            .orders-right .orders_item input {
+                display: inline-block;
+                width: 360px;
+                height: 40px;
+                border: 1px solid #e0e0e0;
+                border-radius: 2px;
+                font-size: 14px;
+                color: #333;
+                padding: 0 10px;
+            }
+
+            .orders-right .orders_item input::-webkit-input-placeholder { /* WebKit browsers */
+                color: #b2b2b2;
+                font-size: 14px;
+            }
+
+            .orders-right .orders_item input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                color: #b2b2b2;
+                font-size: 14px;
+            }
+
+            .orders-right .orders_item input::-moz-placeholder { /* Mozilla Firefox 19+ */
+                color: #b2b2b2;
+                font-size: 14px;
+            }
+
+            .orders-right .orders_item input:-ms-input-placeholder { /* Internet Explorer 10+ */
+                color: #b2b2b2;
+                font-size: 14px;
+            }
+
+        .orders-right .orders_item .code {
+            width: 100px;
+            height: 40px;
+            font-size: 14px;
+            border: 1px solid #e0e0e0;
+            margin-left: 0px;
+            border-left: none;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .orders-right .orders_item .codes {
+            transform: translateY(10px);
+            -moz-transform: translateY(10px);
+            -webkit-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+            -o-transform: translateY(10px);
+        }
+
+        .orders-right .orders_item .phoen_code {
+            width: 100px;
+            height: 40px;
+            background: #ebebeb;
+            border: 1px solid #e0e0e0;
+            border-left: none;
+            line-height: 40px;
+            text-align: center;
+            margin-left: 0;
+            font-size: 14px
+        }
+
+        .orders-right .orders_item .radio {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .orders-right .orders_item .yes {
+            display: inline-block;
+            font-size: 14px
+        }
+
+        .orders-right .orders_item .total {
+            width: 160px;
+        }
+
+        .orders-right .orders_item .pay {
+            width: 92px;
+            height: 40px;
+            background: #ff9900;
+            color: #fff;
+            margin-right: 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .orders-right .orders_item .pay:hover {
+                background: #f19100;
+            }
+
+        .orders-right .orders_item .prev {
+            display: inline-block;
+            width: 92px;
+            height: 40px;
+            line-height:40px;
+            background: #f2f2f2;
+            border: 1px solid #e0e0e0;
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            text-align: center;
+        }
+
+            .orders-right .orders_item .prev:hover {
+                background: #ebebeb;
+            }
+
+.coupon {
+    margin: 0 16%;
+}
+
+    .coupon p {
+        font-size: 20px;
+        color: red;
+    }
+
+    .coupon li {
+        margin: 20px 0;
+    }
+
+        .coupon li input {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+.couponUl .couponName {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #808080
+}
+
+.couponUl .coupomPirce {
+    font-size: 16px;
+    color: #808080
+}
+/* 剧院订单明细 */
+.orders-left .ticket {
+    background: #ffffff;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+    .orders-left .ticket .ticketMsg {
+        height: 45px;
+        line-height: 45px;
+    }
+
+        .orders-left .ticket .ticketMsg p {
+            font-size: 14px;
+            color: #333333;
+        }
+
+.ticket.selected p:first-of-type {
+    font-size: 15px;
+    color: #333333;
+    line-height: 27px;
+    text-align: left;
+}
+
+.ticket.selected ul li {
+    float: left;
+    width: 33%;
+    line-height: 26px;
+}

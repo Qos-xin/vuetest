@@ -1,0 +1,299 @@
+﻿@charset "utf-8";
+/*=============初始化样式
+===================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+}
+/*html,body{height: 100%;margin: 0}*/
+/*body{-webkit-align-items:center;-ms-flex-align:center;align-items: center;display: -webkit-flex;display: flex;}*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    outline: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+    word-wrap: break-word;
+}
+
+button, input, select, textarea {
+    outline: 0;
+    resize: none;
+    /*-webkit-appearance: none;*/
+    font: normal 14px "宋体";
+}
+
+body, button, input, select, textarea {
+    /*-webkit-appearance: none;*/
+    /*background-color: transparent;*/
+    border: none;
+    outline: 0 !important;
+    font-family: Segoe UI,Lucida Grande,Helvetica,Arial,Microsoft YaHei,FreeSans,Arimo,Droid Sans,wenquanyi micro hei,Hiragino Sans GB,Hiragino Sans GB W3,sans-serif;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:after, blockquote:before, q:after, q:before {
+        content: '';
+    }
+
+em {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+a, span, p, div, small {
+    color: #808080;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.blue {
+    color: #27b8e1;
+}
+
+.orange {
+    color: #ff9900 !important
+}
+
+.green {
+    color: #039e02
+}
+
+.red {
+    color: #e70000;
+}
+
+.white {
+    color: white;
+}
+
+.color3 {
+    color: #333;
+}
+
+.hide {
+    display: none !important;
+}
+
+.main-order {
+    position: relative;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+.my_main {
+    width: 100%;
+    height: 974px;
+    background-image: url(../../images/ticketsPC/bg.png);
+}
+
+.nav_border {
+    border-bottom: 3px solid #ff9900;
+}
+
+.nav_color {
+    color: #ff9900 !important;
+}
+
+.line-h {
+    display: inline-block;
+    width: 47px;
+    height: 1px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.line-s {
+    display: inline-block;
+    width: 1px;
+    height: 5px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #e70000;
+    border-radius: 5px
+}
+
+.main .container {
+    width: 80%;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.clearfix:after, .clearfix:before, .container:after, .container:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after, .container:after, .modal-footer:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+
+
+[v-cloak]{display: none!important;}
+/*导航开始*/
+.nav {
+    height: 60px;
+    background: #fff;
+    line-height: 60px;
+    padding: 5px 10px;
+}
+.nav-logo {
+    width: 188px;
+    height: 45px;
+    background-image: url('../images/ticketspc/galasyslogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-text li {
+    float: left;
+    margin-left: 54px;
+    line-height: 50px
+}
+
+    .nav-text li img {
+        vertical-align: text-bottom;
+        margin-right: 10px;
+    }
+
+.main {
+    width: 100%;
+    height: 100%;
+    min-height: 970px;
+    background-image: url('../images/ticketsPC/bg.jpg');
+    position: relative;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+    .main .main-nav {
+        margin:0 auto 10px;
+        background: #f5f5f5;
+        height: 80px;
+        line-height: 75px;
+        text-align: center;
+        border-radius: 10px 10px 0 0
+    }
+
+
+
+        .main .main-nav li:nth-child(1) {
+            color: #ff9900;
+            border-bottom: 3px solid #ff9900;
+        }
+
+        .main .main-nav li {
+            line-height: 57px;
+            margin: 0 20px;
+            padding: 0 15px;
+            font-size: 18px;
+            color: #333;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+/*.main .main-nav li:hover {
+                border-bottom: 3px solid #ff9900;
+                color: #ff9900;
+            }*/
+
+
+
+/*导航结束*/
+
+
+/*底部开始*/
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    text-align: center;
+}
+/*底部结束*/
+/* loading */
+.admin-loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+    .admin-loading .admin-loading-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+    .admin-loading .admin-icon {
+        display: inline-block;
+    }
+
+    .admin-loading .admin-loading-msg {
+        margin-top: 5px;
+        color: #666;
+        font-size: 14px;
+    }

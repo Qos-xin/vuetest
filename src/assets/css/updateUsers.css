@@ -1,0 +1,144 @@
+.orders {
+    margin-top: 40px;
+    min-height: 830px;
+}
+
+.orders-left {
+    width: 200px;
+    min-height: 780px;
+    height: 100%;
+    background: #f7f7f7;
+    padding: 50px 20px 50px 24px
+}
+
+    .orders-left .title:nth-child(1) {
+        color: #039e02;
+        font-size: 18px;
+        margin-bottom: 38px;
+        cursor: default;
+    }
+
+    .orders-left .title:nth-child(2) {
+        color: #666;
+        font-size: 18px;
+        margin-bottom: 30px;
+        cursor: default;
+    }
+
+    .orders-left .title:hover {
+        color: #039e02;
+    }
+
+        .orders-left .title:hover i {
+            color: #039e02;
+        }
+
+    .orders-left .title i {
+        color: #666;
+        font-size: 20px;
+        margin-right: 15px
+    }
+
+    .orders-left a {
+        display: inline-block;
+        width: 100%;
+        color: #999;
+        text-align: right;
+        padding-left: 55px;
+        margin-bottom: 30px
+    }
+
+    .orders-left .right {
+        color: #999;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+
+    .orders-left a:hover {
+        color: #333
+    }
+
+        .orders-left a:hover i {
+            color: #333
+        }
+
+.orders-right {
+    background: #ffffff;
+    min-height: 780px;
+    width: 1000px;
+    height: 100%
+}
+
+    .orders-right .modifyUses {
+        padding: 40px
+    }
+
+        .orders-right .modifyUses h3 {
+            font-size: 18px;
+            color: #333333;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eeeeee
+        }
+
+        .orders-right .modifyUses .userForm {
+            padding: 25px;
+        }
+.userForm .box{
+    margin-bottom:18px;
+}
+.userForm label {
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+.userForm .userPhoneInput {
+    display: inline-block;
+    width: 300px;
+    height: 45px;
+    color: #333;
+    line-height: 45px;
+    font-size: 14px;
+    border: 1px solid #e1e1e1;
+    padding: 0 5px;
+}
+.userForm .passwordInput {
+    display: inline-block;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    border: 1px solid #e1e1e1;
+    padding: 0 5px;
+    color:#333;
+}
+.userForm .code {
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    color: #333;
+    line-height: 45px;
+    font-size: 14px;
+    border: 1px solid #e1e1e1;
+    padding: 0 5px;
+    margin-right: -4px;
+}
+.userForm .getCode {
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    text-align:center;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff9a2d;
+    color: #fff;
+    font-size: 14px;
+}
+
+

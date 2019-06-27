@@ -1,11 +1,12 @@
 <template>
-  <div>
+<div>
     <Nav/>
     <router-view/>
-  </div>
+</div>
 </template>
 
 <script>
+// @ is an alias to /src
 import Nav from '@/components/Nav.vue'
 export default {
   name: 'home',
@@ -14,8 +15,3 @@ export default {
   }
 }
 </script>
-
-
-<style>
-
-</style>
