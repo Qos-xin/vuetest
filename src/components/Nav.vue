@@ -46,7 +46,7 @@ export default {
     line-height: 60px;
     padding: 5px 10px;
 }
-.nav-logo {
+.nav-logo { 
     width: 188px;
     height: 45px;
     background-image: url('./../assets/images/ticketsPC/galasysLogo.png');
