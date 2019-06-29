@@ -64,4 +64,5 @@ export default {
         vertical-align: text-bottom;
         margin-right: 10px;
     }
+    
 </style>
