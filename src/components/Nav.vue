@@ -28,7 +28,7 @@
             </li>
             <li onclick="window.location.href='http://www.baidu.com'" style="cursor:pointer">
                 <!-- <img src="~/images/ticketsPC/return.png" style="vertical-align:middle" /> -->
-                <a>返回官网</a>
+                <a>返回 官网</a>
             </li>
         </ul>
     </div>
